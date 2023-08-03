@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+form {
+    display:flex ;
+    justify-content: center;
+    
+   
+    
+}
+
+
+
+.label {
+    display: inline-flex;
+    border: 1px solid yellow;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    
+    
+    background-color: brown;
+    
+} 
+
+
+.nnf {
+    display: inline-block;
+}
+
+.laab {
+    display: inline-block;
+
+}
+
+.labb {
+    display: inline-block;
+
+}
+
+.labo {
+    display: inline-block;
+
+}
+.llabo {
+    display: inline-block;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+
+
+
