@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Gomycode DOM checkpoints  Cart</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/0b673ad055.js" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body class="boddy">
+
+        <div class="container flex">
+            <div class="structure">
+            <h1>Panier</h1>
+
+            <table id="table">
+                <thead>
+                <tr>
+                    <th>Nom de Villa</th>
+                    <th>Quantité</th>
+                    <th>Prix Nuité</th>
+                    <th>Prix Total</th>
+                
+                </tr>
+                </thead>
+                <tbody id="all_products">
+
+                <tr class="trcard">
+                    <td class="article--name"><div class="card1" style="width: 18rem;" ><div class="card-body"><h5 class="card-title">Villa Azalie</h5><p class="card-text"><h4><div class="iconfelxx"><i class="fa-solid fa-thumbs-up"></i></div><div class="iconfelxx"><i class="fa-solid fa-trash"></i></div></h4></p></div></div></td>
+
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <i class="qty">0</i>
+                        <button class="qty-plus" id="1">+</button>
+                    </td>
+                    <td class="price">150</td> 
+                    
+                    
+                </tr>
+                <tr class="trcard">
+                    <td class="article--name"><div class="card2" style="width: 18rem;"><div class="card-body"><h5 class="card-title">Villa Bourgo</h5><p class="card-text"><h4><div class="iconfelxx"><i class="fa-solid fa-thumbs-up"></i></div><div class="iconfelxx"><i class="fa-solid fa-trash"></i></div></h4></p></div></div></td>
+
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <i class="qty">0</i>
+                        <button class="qty-plus" id="1">+</button>
+                    </td>
+                    <td class="price">250</td> 
+                    
+                    
+                </tr>
+                <tr class="trcard">
+                    <td class="article--name"><div class="card3" style="width: 18rem;"><div class="card-body"><h5 class="card-title">Villa Twareg</h5><p class="card-text"><h4><div class="iconfelxx"><i class="fa-solid fa-thumbs-up"></i></div><div class="iconfelxx"><i class="fa-solid fa-trash"></i></div></h4></p></div></div></td>
+
+                    <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <i class="qty">0</i>
+                        <button class="qty-plus" id="1">+</button>
+                    </td>
+                    <td class="price">190</td> 
+
+                    
+                </tr>
+                <tr class="trcard">
+                    <td class="article--name"></td>
+
+                    <td class="quantity"></td>
+                    <td class="price"></td> 
+                    <td class="subtotal">0</td>
+                    
+                </tr>
+                </tbody>
+
+                <tfoot>
+                <tr>
+                    <td><input type="text" id="name_product" placeholder="Nom de l'article" contenteditable></td>
+                    <td> Prix Nuité: <input  type="number" step="1" id="price_product" value="0" contenteditable></td>
+                    <td></td>
+            
+                    <td><button type="button" id="add_button">Ajouter un article</button></td>
+                </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+        
+    </body>
+</html>
